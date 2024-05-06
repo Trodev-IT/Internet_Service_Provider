@@ -2053,7 +2053,13 @@ blockquote {
     padding: 20px 20px;
   }
 }
-.ba-header-right-actions .ba-header-sidebar-action {
+.ba-header-right-actions .ba-header-sidebar-action  {
+  margin-left: 5px;
+  height: 30px;
+  width: 30px;
+  line-height: 28px;
+}
+.ba-header-sidebar-action-close{
   margin-left: 5px;
   height: 30px;
   width: 30px;
@@ -2066,7 +2072,6 @@ blockquote {
     line-height: 36px;
   }
 }
-
 .ba-search-popup .ba-color-layer {
   position: fixed;
   content: "";
@@ -2133,6 +2138,10 @@ blockquote {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .ba-search-popup-inner form input {
     width: 540px;
+  }
+  .ba-header-sidebar-action-close{
+    visibility: hidden;
+    display: none;
   }
 }
 @media (max-width: 767px) {
